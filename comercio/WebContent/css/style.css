@@ -1,0 +1,128 @@
+/*---Fonte Padrão--*/
+body{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+/*---Grid--*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+/*---Grid--*/
+
+/*---Sidenav--*/
+.sidenav {
+  height: 100%;
+  width: 18%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1B1E1F;
+}
+.sidenav a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #ffffff;
+  display: block;
+  border-bottom: 0.5px solid #262A2B;
+  display: flex;
+  align-items: center;
+}
+.sidenav a:hover {
+  background-color: #6F7B80;
+}
+.sidenav a.active {
+  background-color: #3B4869;
+}
+.sidenav a.active:hover {
+  background-color: #6F7B80;
+}
+/*---Sidenav--*/
+
+/*---Tabela de Itens--*/
+table {
+  border-collapse: collapse;
+  width: 97%;
+}
+td, th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color:#f5f5f5;}
+/*---Tabela de Itens--*/
+
+/*---Icons---*/
+img{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+/*---Icons---*/
+
+/*---Botão Padrão---*/
+.btn-group .button {
+  background-color: #3B4869;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.btn-group .button:hover {
+  background-color: #45547A;
+}
+/*---Botão Padrão---*/
+
+/*---Pagina---*/
+.pagina{
+  max-width: 95%;
+  overflow: hidden;
+  padding: 10px;
+}
+/*---Pagina---*/
+
+/*---Inputs---*/
+input, select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+/*---Inputs---*/
+
+/*---Titulos---*/
+h1, h2, h3, h4, h5, h6{
+  color: #45547A;
+}
+/*---Titulos---*/
+
+/*---Cards---*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 2px 14px;
+}
+/*---Cards---*/
+
+/*---Itens-Horizontal---*/
+.pg-container {
+  display: grid;
+  grid-gap: 70px 100px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.pg-item {
+  text-align: left;
+}
+/*---Itens-Horizontal---*/
